@@ -8,21 +8,30 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1554375160/stock-photo-colourful-beach-huts-at-southwold-on-the-suffolk-coast-325785920.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1554375160/stock-photo-colourful-beach-huts-at-southwold-on-the-suffolk-coast-325785920.jpg");
 }
 .text-container {
-  background-color: rgba(0,0,0,0.7);
-  height: 53%;
-  width: 55%;
+  background-color: rgba(0,0,0,0.75);
+  height: 330px;
+  width: 500px;
   text-align: center;
   color: white;
   border-radius: 1px;
+  @media (max-width: 576px) {
+    width: 280px;
+  }
 }
 .logo {
   width: 250px;
+  @media (max-width: 576px) {
+    width: 180px;
+  }
 }
 .margin-logo {
   margin-top: 68px;
+  @media (max-width: 576px) {
+    // margin-top: 120px;
+  }
 }
 .email-button {
   color: white;
@@ -39,12 +48,17 @@
 .email-button:hover {
   opacity: 1;
   text-decoration: none;
-  color: #999999;
+  // color: #999999;
 }
 .text {
-  margin: 20px 140px 32px 140px;
+  margin: 24px auto 36px auto;
   font-size: 12px;
   font-family: "Open Sans";
   font-weight: 100;
-  letter-spacing: 0.3px
+  letter-spacing: 0.3px;
+  max-width: 216px;
+  @media (max-width: 576px) {
+    // max-width: 160px;
+    margin: 30px auto 40px auto;
+  }
 }
