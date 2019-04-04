@@ -1,17 +1,50 @@
-#home {
-  background-color: #D23333;
-  color: white;
-  height: 100vh;
+.container {
+  width: 100vw;
+  margin: 0;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-around;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/ddwuu1y0i/image/upload/v1554375160/stock-photo-colourful-beach-huts-at-southwold-on-the-suffolk-coast-325785920.jpg");
+}
+.text-container {
+  background-color: rgba(0,0,0,0.7);
+  height: 53%;
+  width: 55%;
   text-align: center;
-  p {
-    margin-top: 1.5em;
-  }
-  a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
-  }
+  color: white;
+  border-radius: 1px;
+}
+.logo {
+  width: 250px;
+}
+.margin-logo {
+  margin-top: 68px;
+}
+.email-button {
+  color: white;
+  border: 1px solid white;
+  padding: 10px 36px;
+  border-radius: 1px;
+  opacity: 0.6;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: "Open Sans";
+  font-weight: 100;
+  letter-spacing: 0.3px
+}
+.email-button:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #999999;
+}
+.text {
+  margin: 20px 140px 32px 140px;
+  font-size: 12px;
+  font-family: "Open Sans";
+  font-weight: 100;
+  letter-spacing: 0.3px
 }
