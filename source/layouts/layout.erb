@@ -6,10 +6,19 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title %></title>
+    <title>Quince Investments</title>
+    <meta name="description" content="A specialist property fund for high net worth individuals who with to invest in the UK holiday lettings market">
+
+        <!-- Facebook Open Graph data -->
+    <meta property="og:title" content="Quince Investments" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="www.quinceinvestments.co.uk" />
+    <meta property="og:image" content="/images/stock-holder-photo.jpg" />
+    <meta property="og:description" content="A specialist property fund for high net worth individuals who with to invest in the UK holiday lettings market" />
+    <meta property="og:site_name" content="Quince Investments" />
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
-    <%= favicon_tag 'images/favicon.png' %>
+    <%= favicon_tag 'images/favicon-32x32.png' %>
   </head>
   <body style="margin: 0;">
     <%= yield %>
