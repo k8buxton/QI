@@ -30,7 +30,6 @@
 .margin-logo {
   margin-top: 68px;
   @media (max-width: 576px) {
-    // margin-top: 120px;
   }
 }
 .email-button {
@@ -48,7 +47,6 @@
 .email-button:hover {
   opacity: 1;
   text-decoration: none;
-  // color: #999999;
 }
 .text {
   margin: 24px auto 36px auto;
@@ -56,9 +54,8 @@
   font-family: "Open Sans";
   font-weight: 100;
   letter-spacing: 0.3px;
-  max-width: 216px;
+  max-width: 221px;
   @media (max-width: 576px) {
-    // max-width: 160px;
     margin: 30px auto 40px auto;
   }
 }
